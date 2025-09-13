@@ -13,7 +13,7 @@ export class AuthService {
 
   constructor(private http: HttpClient, private router:Router, private loaderService:LoaderService) {}
 
-  private baseUrl = 'http://radical-amalita-ok-branding-a1f396e4.koyeb.app/okBranding/usuarios'; 
+  private baseUrl = 'https://radical-amalita-ok-branding-a1f396e4.koyeb.app/okBranding/usuarios'; 
   private sidebarState = new BehaviorSubject<boolean>(false);
 
   private tokenKey = 'auth_token';

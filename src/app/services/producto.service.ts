@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ProductoService {
-  private apiUrl = 'http://radical-amalita-ok-branding-a1f396e4.koyeb.app/okBranding/productos';
+  private apiUrl = 'https://radical-amalita-ok-branding-a1f396e4.koyeb.app/okBranding/productos';
 
   constructor(
     private http: HttpClient,
@@ -57,7 +57,7 @@ export class ProductoService {
   });
 }
 obtenerPorId(id: number) {
-  return this.http.get<any>(`http://radical-amalita-ok-branding-a1f396e4.koyeb.app/okBranding/productos/${id}`);
+  return this.http.get<any>(`https://radical-amalita-ok-branding-a1f396e4.koyeb.app/okBranding/productos/${id}`);
 }
 
 actualizarProducto(producto: any): Observable<any> {
