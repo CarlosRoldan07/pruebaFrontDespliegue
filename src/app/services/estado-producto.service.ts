@@ -9,7 +9,7 @@ import { catchError, finalize, tap } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class EstadoProductoService {
-  private apiUrl = 'http://localhost:8080/okBranding/estado-producto'; // ajusta si tu endpoint cambia
+  private apiUrl = 'http://radical-amalita-ok-branding-a1f396e4.koyeb.app/okBranding/estado-producto'; // ajusta si tu endpoint cambia
 
   constructor(
     private http: HttpClient,

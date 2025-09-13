@@ -9,7 +9,7 @@ import { AlertService } from '../../shared/services/alert.service';
   providedIn: 'root'
 })
 export class CategoriaService {
-  private baseUrl = 'http://localhost:8080/okBranding/categorias';
+  private baseUrl = 'http://radical-amalita-ok-branding-a1f396e4.koyeb.app/okBranding/categorias';
 
   constructor(
   private http: HttpClient,

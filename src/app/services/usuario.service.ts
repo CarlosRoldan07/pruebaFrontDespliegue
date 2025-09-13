@@ -8,7 +8,7 @@ import { catchError, finalize, tap } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class UsuarioService {
-  private apiUrl = 'http://localhost:8080/okBranding/usuarios'; 
+  private apiUrl = 'http://radical-amalita-ok-branding-a1f396e4.koyeb.app/okBranding/usuarios'; 
   constructor(
     private http: HttpClient,
     private loaderService: LoaderService,
